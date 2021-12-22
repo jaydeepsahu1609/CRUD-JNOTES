@@ -1,0 +1,23 @@
+
+
+/*----------------------- navbar --------------------*/
+#jLogo{
+    color: #9b59b6;
+    text-shadow: 0 5px 6px 3px rgba(0, 0, 0, 0.3) !important;
+    animation: rotateLogo 3s linear infinite !important;
+}
+@keyframes rotateLogo {
+    0%{
+        transform: rotateX(5deg);
+    }
+    30%{
+        transform: rotateZ(20deg);
+
+    }
+    60%{
+        transform: rotateX(-5deg);
+        transform: rotateZ(-20deg);
+
+    }
+
+}
